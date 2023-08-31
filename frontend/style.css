@@ -1,0 +1,49 @@
+body {
+  margin: auto;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+
+header nav{
+    background-color: yellowgreen !important;
+}
+
+header nav .navbar-brand {
+  font-size: 60px;
+  font-weight: bolder;
+  color: white !important;
+}
+
+header nav .nav-item {
+    padding: 15px;
+  }
+
+header nav .nav-link {
+  font-size: 20px;
+  color: whitesmoke !important;
+}
+
+#showcase{
+  background-color: rgb(20, 1, 31);
+  height: 85vh;
+}
+
+#showcase h1 {
+  text-align: center;
+  font-size: 70px;
+  padding-top: 180px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+#showcase span {
+  color: yellowgreen;
+}
+
+
+#about h1{
+    font-size: 50px;
+    font-weight: bold;
+}
