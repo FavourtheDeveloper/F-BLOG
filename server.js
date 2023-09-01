@@ -19,7 +19,7 @@ app.use(morgan('combined'))
 const blogRouter = require('./routes/blogRouter');
 const { log } = require('console');
 app.listen(3000);
-app.use(express.static('./frontend'))
+app.use(express.static('./frontend/static'))
 app.set("view engine", "ejs");
 
 app.use(express.urlencoded({extended: false}))
