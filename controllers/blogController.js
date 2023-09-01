@@ -35,6 +35,18 @@ const postNewBlog = (req, res) => {
     })
   }
 
+  
+  const blogDelete = (req, res) => {
+    const blogid = req.params.id;
+    Blog.findByIdAndDelete(blogid)
+    .then((result) => {
+        console.log('Blog Deleted Successfully');
+        res.redirect('/blogs');
+    })
+    .catch((err) => {
+        console.log(err);
+    })
+  }
 
 
 
@@ -46,5 +58,6 @@ const postNewBlog = (req, res) => {
 module.exports = {
     getAllPosts,
     postNewBlog,
-    blogDetails
+    blogDetails,
+    blogDelete
 }
