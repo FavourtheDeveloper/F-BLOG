@@ -59,5 +59,5 @@ module.exports = {
     getAllPosts,
     postNewBlog,
     blogDetails,
-    blogDelete
+    blogDelete,
 }

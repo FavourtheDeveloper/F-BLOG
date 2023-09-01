@@ -26,4 +26,7 @@ router.get('/blogdetails/:id', blogControl.blogDetails)
 
 router.get('/delete/:id', blogControl.blogDelete)
 
+
+
+
 module.exports = router;
