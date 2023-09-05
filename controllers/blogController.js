@@ -3,7 +3,7 @@
 const getAllPosts = (req, res) => {
     Blog.find()
     .then((result) => {
-        res.render("blogs", { Blogs : result, title: "All Blog Posts" });
+        res.render("blogs", { Blogs : result, title: "All Blog Post" });
     })
     .catch((err) => {
         console.log(err)
